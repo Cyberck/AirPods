@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+.footer {
+    background: #282828;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.footer__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 215px;
+    margin: auto;
+    width: 100%;
+}
+
+.footer__logo {
+    height: 53px;
+    cursor: pointer;
+}
+
+.footer__box-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 15px 30px;
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__list-link {
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    color: white;
+    padding: 5px 25px;
+    transition: all .5s ease;
+}
+
+.footer__list-link:hover {
+    border-radius: 25px;
+    background: #fff;
+    color: deeppink;
+}
+
+
+.footer__list-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.icon3 {
+    font-size: 70px;
+    background: black;
+    color: white;
+    width: 70px;
+    height: 55px;
+    margin-right: 29px;
+    cursor: pointer;
+}
+
+.icon4 {
+    font-size: 70px;
+    background: black;
+    color: white;
+    width: 70px;
+    height: 55px;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+
+    .footer__logo {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .footer__list {
+        row-gap: 20px;
+    }
+
+    .footer__box-content {
+        column-gap: 30px;
+        width: 100%;
+    }
+}

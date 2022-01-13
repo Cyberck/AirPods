@@ -1,0 +1,69 @@
+@import 'fonts.css';
+
+.iphone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 70px;
+    gap: 30px;
+}
+
+.iphone__first {
+    background: white;
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+}
+
+.iphone__second {
+    background: white;
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+}
+
+.iphone__three {
+    background: white;
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+}
+
+.iphone__four {
+    background: white;
+    width: 255px;
+    height: 312px;
+    border-radius: 6px;
+}
+
+.iphone__first-one {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.iphone__first-three {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.iphone__link {
+    display: block;
+    margin: auto;
+    padding-top: 7px;
+    max-width: 161px;
+    width: 100%;
+    height: 34px;
+    background: #151515;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}

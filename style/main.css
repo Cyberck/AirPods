@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+.main {
+    background: rgba(0, 0, 0, 0.930);
+}
+
+.main__first {
+    display: flex;
+    justify-content: center;
+}
+
+.main__first-text {
+    color: white;
+    padding: 63px;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+.main__first-img {
+    padding: 30px;
+}
+
+.main__second {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main__second-text {
+    color: white;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.main__three {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.main__threeOne {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 145px;
+    max-width: 333px;
+    width: 100%;
+    padding-right: 88px;
+    position: relative;
+}
+
+.main__threeOne::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+}
+
+.main__threeTwo {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 130px;
+    padding-left: 86px;
+    position: relative;
+}
+
+.main__threeTwo::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+
+@media (max-width: 1040px) {
+
+    .main__first {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+    .main__first-img {
+        padding: 30px;
+        width: 100%;
+    }
+    .airpod1 {
+        width: 100%;
+    }
+    .main__second {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 150px;
+    }
+
+    .main__second-text {
+        margin-top: 80px;
+    }
+
+    .main__three {
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: center;
+    }
+
+    .main__threeOne {
+        margin: 0;
+        padding: 0;
+        max-width: 333px;
+        width: 100%;
+    }
+
+    .main__threeTwo {
+        max-width: 333px;
+        width: 100%;
+        padding: 0;     
+        margin: 0;
+    }
+
+    .main__threeOne::before {
+        display: none;
+    }
+
+    .main__threeTwo::before {
+        display: none;
+    }
+}
